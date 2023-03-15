@@ -1,0 +1,123 @@
+.main {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  width: fit-content;
+  min-width: 50%;
+  border-collapse: collapse;
+  font-size: 14px;
+  transition: all 0.5s;
+  margin: auto;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+td {
+  padding: 8px 0;
+  border: 1px solid #ccc;
+}
+
+td:last-child{
+  border: none;
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.amount {
+  position: relative;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.amount__background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 110%;
+  background: linear-gradient(transparent, cornflowerblue);;
+}
+
+.amount__sum {
+  transition: all 0.5s;
+}
+
+.amount__sum:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.amount__average {
+  padding: 0 8px;
+}
+
+.amount__add:last-child {
+  border: 1px solid #ccc;
+}
+
+.amount--hovered {
+  background-color: yellow;
+}
+
+.amount--bold {
+  font-weight: bold;
+}
+
+.amount__button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.amount__button--add {
+  color: green;
+}
+
+.amount__button--delete {
+  color: red;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-field {
+  display: flex;
+  gap: 15px;
+}
+
+.form-input {
+  width: 50px;
+}
+
+.form-error {
+  position: absolute;
+  bottom: 0;
+  color: red;
+  font-size: 14px;
+}
