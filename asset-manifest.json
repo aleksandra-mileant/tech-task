@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tech-task/static/css/main.15f33624.css",
+    "main.js": "/tech-task/static/js/main.1a6a29f7.js",
+    "index.html": "/tech-task/index.html",
+    "main.15f33624.css.map": "/tech-task/static/css/main.15f33624.css.map",
+    "main.1a6a29f7.js.map": "/tech-task/static/js/main.1a6a29f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f33624.css",
+    "static/js/main.1a6a29f7.js"
+  ]
+}
